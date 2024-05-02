@@ -43,3 +43,11 @@ This is the MonkaWae Token-Contract. It is a standard ERC20 token with some addi
 - **Hack Mitigation Protocol (Lossless)**: Lossless is a proprietary protocol that allows you to mitigate any damages deriving from hacks/exploits revolving around your token
 
 ### Tax Definition
+
+- **Wallet Tax**: This is our standard tax - it will be deducted from each buy, sell and transfer and go to our specified wallet.
+- **Liquidity Tax**: The Liquidity tax will automatically adds collected tokens to our main liquidity pool on the default exchange.
+- **Dividend Tax**: The Dividend tax will automatically collect tokens, swap them and distribute among the holders.
+- **Dividend eligibility amount**: Specifies the minimum amount of tokens each user must hold to be eligible for dividends.
+- **Auto Claim Interval**: Setting the minimum interval for auto-claim of dividends. Should not affect manual claiming.
+- **Ecosystem Tax**: This is our second standard tax - it will be deducted from each buy, sell and transfer and go to any specified wallet.
+- **Team Tax**: This is your standard tax - it will be deducted from each buy, sell, and transfer and go to any specified wallet.
