@@ -41,3 +41,5 @@ This is the MonkaWae Token-Contract. It is a standard ERC20 token with some addi
 - **Foreign Token Recovery**: Utility function to recover other ERC-20 tokens that were sent to your token contract. (Valuable tokens will be credited/sent to specified [changeable] wallet/smart contract)
 - **ERC-2612 Permit Extension**: Utility function for signing gasless approvals through third-party smart contracts
 - **Hack Mitigation Protocol (Lossless)**: Lossless is a proprietary protocol that allows you to mitigate any damages deriving from hacks/exploits revolving around your token
+
+### Tax Definition
