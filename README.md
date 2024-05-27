@@ -1,6 +1,6 @@
 # MonkaWae Token-Contract
 
-This is the MonkaWae Token-Contract. It is a standard ERC20 token with some additional features. It is created for those who just want to take a look on how MonkaWae token is created and some additional features that are added to it.
+This is the MonkaWae Token-Contract. It is a standard ERC20 token with some additional features. It is created for those who just want to take a look at how MonkaWae token is created and some additional features that are added to it.
 
 ## About MonkaWae Token
 
@@ -26,9 +26,9 @@ This is the MonkaWae Token-Contract. It is a standard ERC20 token with some addi
 ### Liquidity and Tax
 
 - **Wallet Tax**: 1% on buy, sell and transfer to other token
-- **Liquidity Tax**: 1% tax on Buy, sell and transfer sent to liquidity pool
+- **Liquidity Tax**: 1% tax on Buy, sell and transfer sent to the liquidity pool
 - **Dividend Tax**: 1% tax on Buy, Sell and Transfer sent to token holder with amount of minimum 1 token
-- **Ecosystem Tax**: 1% tax on Buy, Sell and Transfer sent to specific wallet or DAO contract
+- **Ecosystem Tax**: 1% tax on Buy, Sell and Transfer sent to a specific wallet or DAO contract
 - **Team Tax**: 1% tax on Buy, Sell and Transfer sent to specific wallet or smart contract to share between us or our team
 - **Liquidity Pool/DEX**: [PancakeSwap](https://pancakeswap.finance/)
 
@@ -45,7 +45,7 @@ This is the MonkaWae Token-Contract. It is a standard ERC20 token with some addi
 ### Tax Definition
 
 - **Wallet Tax**: This is our standard tax - it will be deducted from each buy, sell and transfer and go to our specified wallet.
-- **Liquidity Tax**: The Liquidity tax will automatically adds collected tokens to our main liquidity pool on the default exchange.
+- **Liquidity Tax**: The Liquidity tax will automatically add collected tokens to our main liquidity pool on the default exchange.
 - **Dividend Tax**: The Dividend tax will automatically collect tokens, swap them and distribute among the holders.
 - **Dividend eligibility amount**: Specifies the minimum amount of tokens each user must hold to be eligible for dividends.
 - **Auto Claim Interval**: Setting the minimum interval for auto-claim of dividends. Should not affect manual claiming.
