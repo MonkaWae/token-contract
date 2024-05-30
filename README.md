@@ -12,7 +12,7 @@ This is the MonkaWae Token-Contract. It is a standard ERC20 token with some addi
 ### Tokenomics
 
 - Initial supply: 1000000 (1 million)
-- Max supply: 9 999 999 999 999 999
+- Max supply: 9999999999999999
 - decimals: 18
 
 ### Chain
